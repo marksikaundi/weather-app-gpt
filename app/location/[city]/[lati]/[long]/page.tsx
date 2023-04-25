@@ -1,17 +1,17 @@
 type Props = {
     params: {
         city: string;
-        lat: string;
+        lati: string;
         long: string;
     }
 }
 
 
 
-function WeatherPage({params: {city, lat, long}}: Props) {
+function WeatherPage({params: {city, lati, long}}: Props) {
   return (
     <div>
-      Welcome to Weather page
+      Welcome to Weather page:{city} {lati} {long}
     </div>
   )
 }
