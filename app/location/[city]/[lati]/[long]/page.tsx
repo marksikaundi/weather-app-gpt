@@ -18,4 +18,4 @@ function WeatherPage({params: {city, lati, long}}: Props) {
 
 export default WeatherPage
 
-//ended 0n 1hours
+// resumed
