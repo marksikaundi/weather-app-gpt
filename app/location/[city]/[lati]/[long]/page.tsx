@@ -18,4 +18,4 @@ function WeatherPage({params: {city, lati, long}}: Props) {
 
 export default WeatherPage
 
-// resumed
+// resumed need to copy string
